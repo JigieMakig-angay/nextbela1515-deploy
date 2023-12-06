@@ -1,0 +1,112 @@
+.Developer {
+  background-color: whitesmoke;
+
+  .Developer-head {
+    text-transform: uppercase;
+    background-color: #fb6f92;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .Developer-profile {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ffb3c6;
+    padding: 6px;
+    .Developer-profileCard {
+     
+      text-align: center;
+      flex: 1 1 200px;
+      img {
+        border-radius: 40%;
+        border: 2px solid #000;
+        padding: 2px;
+        width: 220px;
+      }
+      .Card-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #fb6f92;
+        h3, p {
+          padding: 10px;
+          text-transform: uppercase;
+        }
+        h3 {
+          color: white;
+          font-size: 1.3rem;
+        }
+        p{
+          color: gainsboro;
+        }
+      }
+    }
+
+    .Developer-profileDetails {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+        color: black;
+        padding: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .Card-btn {
+        background-color: #FF9AA2;
+        background-color: rgba(255, 255, 255, 0.75);
+        background-color: #fb6f92;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        a {
+          padding: 15px;
+          color: white;
+          text-transform: lowercase;
+        }
+
+        a:hover {
+          opacity: 0.8;
+        }
+
+        a:nth-child(1) {
+          background: gray;
+        }
+
+        a:nth-child(2) {
+          background: gray;
+        }
+
+        a:nth-child(3) {
+          background: gray;
+        }
+
+        a:nth-child(4) {
+          background: gray;
+        }
+
+        a:nth-child(5) {
+          background: gray;
+        }
+      }
+
+    }
+
+  }
+
+}
